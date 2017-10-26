@@ -12,6 +12,13 @@
 		7051F1081FA2574E00A88E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1061FA2574E00A88E06 /* Main.storyboard */; };
 		7051F10A1FA2574E00A88E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1091FA2574E00A88E06 /* Assets.xcassets */; };
 		7051F10D1FA2574E00A88E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */; };
+		7051F1191FA25B9C00A88E06 /* CreativityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1181FA25B9C00A88E06 /* CreativityView.swift */; };
+		7051F11B1FA25BED00A88E06 /* AbstractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11A1FA25BED00A88E06 /* AbstractionView.swift */; };
+		7051F11D1FA25C1800A88E06 /* DataInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11C1FA25C1800A88E06 /* DataInformationView.swift */; };
+		7051F11F1FA25C2E00A88E06 /* AlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11E1FA25C2E00A88E06 /* AlgorithmsView.swift */; };
+		7051F1211FA25C4000A88E06 /* ProgrammingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1201FA25C4000A88E06 /* ProgrammingView.swift */; };
+		7051F1231FA25C6700A88E06 /* InternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1221FA25C6700A88E06 /* InternetView.swift */; };
+		7051F1251FA25C8000A88E06 /* GlobalImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1241FA25C8000A88E06 /* GlobalImpactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		7051F1091FA2574E00A88E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7051F10C1FA2574E00A88E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7051F10E1FA2574E00A88E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7051F1181FA25B9C00A88E06 /* CreativityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityView.swift; sourceTree = "<group>"; };
+		7051F11A1FA25BED00A88E06 /* AbstractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionView.swift; sourceTree = "<group>"; };
+		7051F11C1FA25C1800A88E06 /* DataInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInformationView.swift; sourceTree = "<group>"; };
+		7051F11E1FA25C2E00A88E06 /* AlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsView.swift; sourceTree = "<group>"; };
+		7051F1201FA25C4000A88E06 /* ProgrammingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingView.swift; sourceTree = "<group>"; };
+		7051F1221FA25C6700A88E06 /* InternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetView.swift; sourceTree = "<group>"; };
+		7051F1241FA25C8000A88E06 /* GlobalImpactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,13 @@
 			children = (
 				7051F1021FA2574E00A88E06 /* AppDelegate.swift */,
 				7051F1041FA2574E00A88E06 /* ViewController.swift */,
+				7051F1181FA25B9C00A88E06 /* CreativityView.swift */,
+				7051F11A1FA25BED00A88E06 /* AbstractionView.swift */,
+				7051F11C1FA25C1800A88E06 /* DataInformationView.swift */,
+				7051F11E1FA25C2E00A88E06 /* AlgorithmsView.swift */,
+				7051F1201FA25C4000A88E06 /* ProgrammingView.swift */,
+				7051F1221FA25C6700A88E06 /* InternetView.swift */,
+				7051F1241FA25C8000A88E06 /* GlobalImpactView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7051F11F1FA25C2E00A88E06 /* AlgorithmsView.swift in Sources */,
+				7051F1231FA25C6700A88E06 /* InternetView.swift in Sources */,
+				7051F1191FA25B9C00A88E06 /* CreativityView.swift in Sources */,
+				7051F11B1FA25BED00A88E06 /* AbstractionView.swift in Sources */,
 				7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */,
+				7051F1251FA25C8000A88E06 /* GlobalImpactView.swift in Sources */,
+				7051F11D1FA25C1800A88E06 /* DataInformationView.swift in Sources */,
 				7051F1031FA2574E00A88E06 /* AppDelegate.swift in Sources */,
+				7051F1211FA25C4000A88E06 /* ProgrammingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
