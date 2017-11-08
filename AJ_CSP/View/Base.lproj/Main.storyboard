@@ -130,6 +130,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Crk-PF-a1I"/>
                     </view>
+                    <connections>
+                        <outlet property="algorithmText" destination="ecC-dG-lNS" id="yy6-vY-BC8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97h-TW-sGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
