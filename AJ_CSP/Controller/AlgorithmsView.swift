@@ -16,7 +16,7 @@ class AlgorithmsView: UIViewController {
     {
         var algorithmSteps : [String] = []
         
-        //TODO: Define algorithm and all steps
+        //MARK: - Algorithm definition
         let algorithm :String = "These are the instructions to create a project in Java using Eclipse and Github \n"
         let stepOne :String = "First, launch Eclipse and Github cause you’re going to need both."
         let stepTwo :String = "Second, click file, new, Java project and name the project then click enter."
@@ -33,7 +33,7 @@ class AlgorithmsView: UIViewController {
        
         for step in algorithmSteps
         {
-            let bullet :String = "🖤"
+            let bullet :String = "🖤" //Shot through the heart and you're to blame you give love a bad name
             let formattedStep :String = "\n\(bullet) \(step)"
             let attributedStringStep: NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
@@ -60,7 +60,7 @@ class AlgorithmsView: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-
+        setupAlgorithm()
         // Do any additional setup after loading the view.
     }
 
