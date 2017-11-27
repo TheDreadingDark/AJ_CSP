@@ -19,6 +19,8 @@
 		7051F1211FA25C4000A88E06 /* ProgrammingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1201FA25C4000A88E06 /* ProgrammingView.swift */; };
 		7051F1231FA25C6700A88E06 /* InternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1221FA25C6700A88E06 /* InternetView.swift */; };
 		7051F1251FA25C8000A88E06 /* GlobalImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1241FA25C8000A88E06 /* GlobalImpactView.swift */; };
+		705F9C281FC361670012FC6E /* Punchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C271FC361670012FC6E /* Punchable.swift */; };
+		705F9C2A1FC362890012FC6E /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C291FC362890012FC6E /* Demon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		7051F1201FA25C4000A88E06 /* ProgrammingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingView.swift; sourceTree = "<group>"; };
 		7051F1221FA25C6700A88E06 /* InternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetView.swift; sourceTree = "<group>"; };
 		7051F1241FA25C8000A88E06 /* GlobalImpactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactView.swift; sourceTree = "<group>"; };
+		705F9C271FC361670012FC6E /* Punchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punchable.swift; sourceTree = "<group>"; };
+		705F9C291FC362890012FC6E /* Demon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		7051F1151FA2577300A88E06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				705F9C271FC361670012FC6E /* Punchable.swift */,
+				705F9C291FC362890012FC6E /* Demon.swift */,
 			);
 			name = Model;
 			path = "New Group";
@@ -194,6 +200,8 @@
 				7051F1231FA25C6700A88E06 /* InternetView.swift in Sources */,
 				7051F1191FA25B9C00A88E06 /* CreativityView.swift in Sources */,
 				7051F11B1FA25BED00A88E06 /* AbstractionView.swift in Sources */,
+				705F9C2A1FC362890012FC6E /* Demon.swift in Sources */,
+				705F9C281FC361670012FC6E /* Punchable.swift in Sources */,
 				7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */,
 				7051F1251FA25C8000A88E06 /* GlobalImpactView.swift in Sources */,
 				7051F11D1FA25C1800A88E06 /* DataInformationView.swift in Sources */,
