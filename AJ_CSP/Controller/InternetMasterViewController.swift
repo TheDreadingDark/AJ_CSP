@@ -38,6 +38,27 @@ public class InternetMasterViewController : UITableViewController
     }
 
     //MARK: - Table view data source
+   
+    override public func numberOfSections(in tableView: UITableView) -> Int
+    {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
+    
+    ovveride public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return internetTopics.count
+    }
+    
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let currentText = internetTopics[indexPath.row]
+        cell.textLabel!.text = currentText
+        
+        return cell
+    }
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
