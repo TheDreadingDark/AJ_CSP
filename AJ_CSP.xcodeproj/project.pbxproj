@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7018EACF1FCF39D4002EFDD0 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */; };
+		7018EAD21FCF3BB7002EFDD0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7018EAD11FCF3BB7002EFDD0 /* WebKit.framework */; };
 		7051F1031FA2574E00A88E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1021FA2574E00A88E06 /* AppDelegate.swift */; };
 		7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1041FA2574E00A88E06 /* ViewController.swift */; };
 		7051F1081FA2574E00A88E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1061FA2574E00A88E06 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		7018EAD11FCF3BB7002EFDD0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7051F0FF1FA2574E00A88E06 /* AJ_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJ_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7051F1021FA2574E00A88E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7051F1041FA2574E00A88E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7018EAD21FCF3BB7002EFDD0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7018EAD01FCF3BB6002EFDD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7018EAD11FCF3BB7002EFDD0 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7051F0F61FA2574E00A88E06 = {
 			isa = PBXGroup;
 			children = (
 				7051F1011FA2574E00A88E06 /* AJ_CSP */,
 				7051F1001FA2574E00A88E06 /* Products */,
+				7018EAD01FCF3BB6002EFDD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
