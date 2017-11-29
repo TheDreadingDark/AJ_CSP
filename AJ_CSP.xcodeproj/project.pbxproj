@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7018EACF1FCF39D4002EFDD0 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */; };
 		7051F1031FA2574E00A88E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1021FA2574E00A88E06 /* AppDelegate.swift */; };
 		7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1041FA2574E00A88E06 /* ViewController.swift */; };
 		7051F1081FA2574E00A88E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1061FA2574E00A88E06 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		7051F0FF1FA2574E00A88E06 /* AJ_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJ_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7051F1021FA2574E00A88E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7051F1041FA2574E00A88E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
 				7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */,
 				7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */,
+				7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				7051F1231FA25C6700A88E06 /* InternetMasterViewController.swift in Sources */,
 				7051F1191FA25B9C00A88E06 /* CreativityViewController.swift in Sources */,
 				7051F11B1FA25BED00A88E06 /* AbstractionViewController.swift in Sources */,
+				7018EACF1FCF39D4002EFDD0 /* InternetDetailViewController.swift in Sources */,
 				705F9C2A1FC362890012FC6E /* Demon.swift in Sources */,
 				705F9C281FC361670012FC6E /* Punchable.swift in Sources */,
 				7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */,
