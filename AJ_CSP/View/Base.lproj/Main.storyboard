@@ -243,8 +243,8 @@
                         <viewLayoutGuide key="safeArea" id="sGf-XP-zna"/>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="8mp-gd-1kY" id="rwN-oS-3OS"/>
-                        <outlet property="webViewer" destination="fxb-c0-fCq" id="SQt-fc-eNv"/>
+                        <outlet property="textView" destination="8mp-gd-1kY" id="iyN-HC-UEG"/>
+                        <outlet property="webViewer" destination="fxb-c0-fCq" id="lg3-d5-dZh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hd-C9-BE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
