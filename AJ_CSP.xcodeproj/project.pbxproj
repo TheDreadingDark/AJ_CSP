@@ -23,6 +23,7 @@
 		7051F1251FA25C8000A88E06 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */; };
 		705F9C281FC361670012FC6E /* Punchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C271FC361670012FC6E /* Punchable.swift */; };
 		705F9C2A1FC362890012FC6E /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C291FC362890012FC6E /* Demon.swift */; };
+		70ACAEB41FD72A0400811DDA /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACAEB31FD72A0400811DDA /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		705F9C271FC361670012FC6E /* Punchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punchable.swift; sourceTree = "<group>"; };
 		705F9C291FC362890012FC6E /* Demon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demon.swift; sourceTree = "<group>"; };
+		70ACAEB31FD72A0400811DDA /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				7051F1061FA2574E00A88E06 /* Main.storyboard */,
 				7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */,
+				70ACAEB31FD72A0400811DDA /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				7051F1191FA25B9C00A88E06 /* CreativityViewController.swift in Sources */,
 				7051F11B1FA25BED00A88E06 /* AbstractionViewController.swift in Sources */,
 				7018EACF1FCF39D4002EFDD0 /* InternetDetailViewController.swift in Sources */,
+				70ACAEB41FD72A0400811DDA /* DrawingView.swift in Sources */,
 				705F9C2A1FC362890012FC6E /* Demon.swift in Sources */,
 				705F9C281FC361670012FC6E /* Punchable.swift in Sources */,
 				7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */,
