@@ -251,7 +251,7 @@
             </objects>
             <point key="canvasLocation" x="3880.8000000000002" y="964.76761619190415"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="tUW-Fl-a5b">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="h6L-eH-rSp" customClass="InternetMasterViewController" customModule="AJ_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -267,6 +267,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ce6-vR-pHb" kind="showDetail" identifier="showDetail" id="Ebn-PA-2oy"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -274,7 +277,7 @@
                             <outlet property="delegate" destination="h6L-eH-rSp" id="eMe-cl-hDh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="gTq-M6-NFo"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="gTq-M6-NFo"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sYe-rK-bBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -515,4 +518,7 @@ Once at the page of topics it'll have information most people don't know about n
         <image name="nuclear energy" width="540" height="405"/>
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ebn-PA-2oy"/>
+    </inferredMetricsTieBreakers>
 </document>
