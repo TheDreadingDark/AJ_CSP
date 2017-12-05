@@ -22,7 +22,7 @@ public class InternetMasterViewController : UITableViewController
         ]
     }()
     
-    private lazy var address : [String] = []
+    private lazy var addresses : [String] = []
     
     private var detailViewController : InternetDetailViewController?
     
@@ -30,22 +30,23 @@ public class InternetMasterViewController : UITableViewController
     {
         //TODO: Replace with your correct links
         addresses = [
-            "https://www.google.com"
+            "https://www.google.com",
             "https://apstudent.collegeboard.org/home",
             "http://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
             "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0",
-            "https://twitter.com/",
+            "https://twitter.com/"
         ]
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as? InternetDetailViewController
+        }
     }
     
-    if let splitView = splitViewController
-    {
-        let currentControllers = splitView.viewControllers
-        detailViewController = currentControllers[0] as? InternetDetailViewController
-    }
     
-    override func viewDidLoad()
+    
+    override public func viewDidLoad()
     {
         super.viewDidLoad()
         setup()
@@ -80,17 +81,26 @@ public class InternetMasterViewController : UITableViewController
     {
         if segue.identifier! == "showDetail"
         {
-            let urlString = addresses[indexPath.row]
+            let urlString = addresses[IndexPath.row]
             let pageText : String
             
-            if indexPath.row == 0
+            if IndexPath.row == 0
             {
                 //TODO: Replace with your definitions - great time to use the """ operator
-                pageText = "All the definitions you wrote........."
+                pageText =
+                """
+                URL: Universal Resource Locator which is a web address"
+                
+                TCP: Transmission Control Protocol which is a set of internet protocols allowing multiple computers to talk to each other
+                
+                IP: Internet Protocol which is also a set of internet protocols allowing multiple computers to talk to each other
+                
+                DNS: Domain Main System which is how domain names are translated to IP addresses
+                """
             }
             else
             {
-                pageText = internetTopics[indexPath.row]
+                pageText = internetTopics[IndexPath.row]
             }
             
             let controller = segue.destination as! InternetDetailViewController

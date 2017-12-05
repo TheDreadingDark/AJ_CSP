@@ -27,16 +27,15 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     //Helper method to retrieve the correct ViewController
     private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
     {
-        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\
-            (abstractionLevel)ViewController")
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
     }
     
-    override func viewDidLoad()
+    override public func viewDidLoad()
     {
         super.viewDidLoad()
         dataSource = self
         
-        if let firstViewController = orderedAbstractViews.first
+        if let firstViewController = orderedAbstractionViews.first
         {
             setViewControllers([firstViewController],
                                direction: .forward,
@@ -48,7 +47,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     }
     
     //MARK:- Required Protocol methods for UIPageViewControllerDataSource
-    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter
         viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
@@ -77,7 +76,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore
         viewController: UIViewController) -> UIViewController?
     {
-        guard let viewControllerIndex = orderedAbstrctionViews.index(of: viewController)
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
         {
             return nil
@@ -119,7 +118,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         return firstViewControllerIndex
     }
 
-    override func didReceiveMemoryWarning()
+    override public func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

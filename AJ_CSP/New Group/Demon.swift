@@ -10,6 +10,16 @@ import UIKit
 
 public class Demon : Punchable
 {
+    public func squish()
+    {
+        
+    }
+    
+    public func isSquashed() -> Bool
+    {
+        
+    }
+    
     //MARK: Punchable data member
     public var punchState: Bool
     
