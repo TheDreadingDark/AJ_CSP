@@ -10,6 +10,6 @@ import Foundation
 public protocol Punchable
 {
     var punchState : Bool {get set}
-    func squish() -> Void
-    func isSquashed() -> Bool
+    func punch() -> Void
+    func wasPunched() -> Bool
 }

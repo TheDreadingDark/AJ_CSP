@@ -10,22 +10,32 @@ import UIKit
 
 public class Demon : Punchable
 {
-    public func squish()
-    {
-        
-    }
-    
-    public func isSquashed() -> Bool
-    {
-        
-    }
-    
     //MARK: Punchable data member
     public var punchState: Bool
     
     public init()
     {
-        self.punchState
+        self.punchState = false
+    }
+    
+    //MARK:- Punchable methods
+    public func punch() -> Void
+    {
+        print("I was punched")
+        punchState = true
+    }
+    
+    public func wasPunched() -> Bool
+    {
+        if(punchState)
+        {
+            print("Punched")
+        }
+        else
+        {
+            print("Still")
+        }
+        return punchState
     }
 }
 
