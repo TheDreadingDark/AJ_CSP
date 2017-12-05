@@ -16,7 +16,7 @@
 		7051F10D1FA2574E00A88E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */; };
 		7051F1191FA25B9C00A88E06 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */; };
 		7051F11B1FA25BED00A88E06 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */; };
-		7051F11D1FA25C1800A88E06 /* DataInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11C1FA25C1800A88E06 /* DataInformationViewController.swift */; };
+		7051F11D1FA25C1800A88E06 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11C1FA25C1800A88E06 /* DataViewController.swift */; };
 		7051F11F1FA25C2E00A88E06 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11E1FA25C2E00A88E06 /* AlgorithmsViewController.swift */; };
 		7051F1211FA25C4000A88E06 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */; };
 		7051F1231FA25C6700A88E06 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */; };
@@ -37,7 +37,7 @@
 		7051F10E1FA2574E00A88E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
-		7051F11C1FA25C1800A88E06 /* DataInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInformationViewController.swift; sourceTree = "<group>"; };
+		7051F11C1FA25C1800A88E06 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		7051F11E1FA25C2E00A88E06 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
@@ -128,13 +128,13 @@
 				7051F1021FA2574E00A88E06 /* AppDelegate.swift */,
 				7051F1041FA2574E00A88E06 /* ViewController.swift */,
 				7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */,
+				7051F11C1FA25C1800A88E06 /* DataViewController.swift */,
 				7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */,
-				7051F11C1FA25C1800A88E06 /* DataInformationViewController.swift */,
 				7051F11E1FA25C2E00A88E06 /* AlgorithmsViewController.swift */,
-				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
-				7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */,
 				7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */,
+				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
 				7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */,
+				7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 				705F9C281FC361670012FC6E /* Punchable.swift in Sources */,
 				7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */,
 				7051F1251FA25C8000A88E06 /* GlobalImpactViewController.swift in Sources */,
-				7051F11D1FA25C1800A88E06 /* DataInformationViewController.swift in Sources */,
+				7051F11D1FA25C1800A88E06 /* DataViewController.swift in Sources */,
 				7051F1031FA2574E00A88E06 /* AppDelegate.swift in Sources */,
 				7051F1211FA25C4000A88E06 /* ProgrammingViewController.swift in Sources */,
 			);
