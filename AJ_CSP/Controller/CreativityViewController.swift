@@ -112,6 +112,8 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
         let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
         let availableWidth = view.frame.width - paddingSpace
         let widthPerItem = availableWidth / itemsPerRow
+        
+        return CGSize(width: widthPerItem, height: widthPerItem)
     }
     
     public func collectionView(_ collectionView: UICollectionView,
