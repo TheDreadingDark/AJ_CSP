@@ -81,34 +81,38 @@ public class InternetMasterViewController : UITableViewController
     {
         if segue.identifier! == "showDetail"
         {
-            let urlString = addresses[IndexPath.row]
-            let pageText : String
-            
-            if indexPath.row == 0
+            if let indexPath = self.tableView.indexPathForSelectedRow
             {
-                //TODO: Replace with your definitions - great time to use the """ operator
-                pageText =
-                """
-                URL: Universal Resource Locator which is a web address"
                 
-                TCP: Transmission Control Protocol which is a set of internet protocols allowing multiple computers to talk to each other
-                
-                IP: Internet Protocol which is also a set of internet protocols allowing multiple computers to talk to each other
-                
-                DNS: Domain Main System which is how domain names are translated to IP addresses
-                """
-            }
-            else
-            {
-                pageText = internetTopics[IndexPath.row]
-            }
+                let urlString = addresses[indexPath.row]
+                let pageText : String
             
-            let controller = segue.destination as! InternetDetailViewController
+                if indexPath.row == 0
+                {
+                    //TODO: Replace with your definitions - great time to use the """ operator
+                    pageText =
+                    """
+                    URL: Universal Resource Locator which is a web address
+                    
+                    TCP: Transmission Control Protocol which is a set of internet protocols allowing multiple computers to talk to each other
+                    
+                    IP: Internet Protocol which is also a set of internet protocols allowing multiple computers to talk to each other
+                    
+                    DNS: Domain Main System which is how domain names are translated to IP addresses
+                    """
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
             
-            controller.detailAddress = urlString
-            controller.detailText = pageText
-            controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-            controller.navigationItem.leftItemsSupplementBackButton = true
+                let controller = segue.destination as! InternetDetailViewController
+            
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
         }
     }
 

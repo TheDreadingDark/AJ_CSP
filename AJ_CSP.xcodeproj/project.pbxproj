@@ -133,6 +133,7 @@
 				7051F1021FA2574E00A88E06 /* AppDelegate.swift */,
 				7051F1041FA2574E00A88E06 /* ViewController.swift */,
 				7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */,
+				709E424A1FD9D36A005A3676 /* ArtCell.swift */,
 				7051F11C1FA25C1800A88E06 /* DataViewController.swift */,
 				7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */,
 				7051F11E1FA25C2E00A88E06 /* AlgorithmsViewController.swift */,
@@ -140,7 +141,6 @@
 				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
 				7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */,
 				7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */,
-				709E424A1FD9D36A005A3676 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

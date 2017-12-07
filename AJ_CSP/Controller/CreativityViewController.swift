@@ -35,7 +35,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     {
         didSet
         {
-            var indexPath = [IndexPath]()
+            var indexPaths = [IndexPath]()
             if let largePhotoIndexPath = largePhotoIndexPath
             {
                 indexPaths.append(largePhotoIndexPath)
@@ -76,8 +76,8 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
         return 1
     }
     
-    override public func colletctionView(_ collectionView: UICollectionView,
-                                         numberOfItemsInSection section: Int) -> Int
+    override public func collectionView(_ collectionView: UICollectionView,
+                                        numberOfItemsInSection section: Int) -> Int
     {
         return artSelection.count
     }
@@ -97,7 +97,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     //MARK:- Delegate methods
     
     public func collectionView(_ collectionView: UICollectionView,
-                               layout collectionView: UICollectionViewLayout,
+                               layout collectionViewLayout: UICollectionViewLayout,
                                sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath == largePhotoIndexPath
         {
