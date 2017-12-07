@@ -84,7 +84,7 @@ public class InternetMasterViewController : UITableViewController
             let urlString = addresses[IndexPath.row]
             let pageText : String
             
-            if IndexPath.row == 0
+            if indexPath.row == 0
             {
                 //TODO: Replace with your definitions - great time to use the """ operator
                 pageText =
