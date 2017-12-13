@@ -30,11 +30,19 @@
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qP7-BX-D5l">
-                                <rect key="frame" x="141" y="593" width="92" height="30"/>
+                                <rect key="frame" x="166" y="617" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Photo Library"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="PJo-8y-XkG" kind="show" id="cYz-iO-X4c"/>
+                                    <segue destination="Y5c-Mo-sxR" kind="show" id="f5b-ci-XA8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1L8-g2-nDb">
+                                <rect key="frame" x="143" y="540" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Saved Photos"/>
+                                <connections>
+                                    <segue destination="PJo-8y-XkG" kind="show" id="g6d-B5-YUd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,7 +58,7 @@
         <scene sceneID="EPa-mV-ZmH">
             <objects>
                 <viewController id="Y5c-Mo-sxR" customClass="ProgrammingViewController" customModule="AJ_CSP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c6G-i6-V95">
+                    <view key="view" contentMode="scaleToFill" id="c6G-i6-V95" customClass="SKView" customModule="AJ_CSP" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

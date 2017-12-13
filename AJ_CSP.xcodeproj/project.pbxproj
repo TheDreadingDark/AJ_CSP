@@ -106,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				7018788D1FE1B2BF00DA9AB7 /* Invader.swift */,
-				7018788F1FE1B2BF00DA9AB7 /* InvaderLaser.swift */,
 				701878901FE1B2BF00DA9AB7 /* Player.swift */,
-				701878911FE1B2BF00DA9AB7 /* PlayerLaser.swift */,
 				7018788E1FE1B2BF00DA9AB7 /* Projectile.swift */,
+				7018788F1FE1B2BF00DA9AB7 /* InvaderLaser.swift */,
+				701878911FE1B2BF00DA9AB7 /* PlayerLaser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,8 +154,8 @@
 		7051F1141FA2576800A88E06 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				701878891FE1AE8F00DA9AB7 /* Utilities.swift */,
 				701878881FE1ADFF00DA9AB7 /* Sounds */,
+				701878891FE1AE8F00DA9AB7 /* Utilities.swift */,
 				7051F1091FA2574E00A88E06 /* Assets.xcassets */,
 				7051F10E1FA2574E00A88E06 /* Info.plist */,
 			);
