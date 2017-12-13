@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="2365.5999999999999" y="-339.58020989505252"/>
         </scene>
-        <!--View Controller-->
+        <!--Programming View Controller-->
         <scene sceneID="EPa-mV-ZmH">
             <objects>
-                <viewController id="Y5c-Mo-sxR" sceneMemberID="viewController">
+                <viewController id="Y5c-Mo-sxR" customClass="ProgrammingViewController" customModule="AJ_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c6G-i6-V95">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

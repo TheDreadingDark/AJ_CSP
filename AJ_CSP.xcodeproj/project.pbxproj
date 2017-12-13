@@ -28,7 +28,6 @@
 		7051F1051FA2574E00A88E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1041FA2574E00A88E06 /* ViewController.swift */; };
 		7051F1081FA2574E00A88E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1061FA2574E00A88E06 /* Main.storyboard */; };
 		7051F10A1FA2574E00A88E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7051F1091FA2574E00A88E06 /* Assets.xcassets */; };
-		7051F10D1FA2574E00A88E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */; };
 		7051F1191FA25B9C00A88E06 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */; };
 		7051F11B1FA25BED00A88E06 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */; };
 		7051F11D1FA25C1800A88E06 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F11C1FA25C1800A88E06 /* DataViewController.swift */; };
@@ -65,7 +64,6 @@
 		7051F1041FA2574E00A88E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7051F1071FA2574E00A88E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7051F1091FA2574E00A88E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7051F10C1FA2574E00A88E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7051F10E1FA2574E00A88E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
@@ -144,10 +142,10 @@
 		7051F1011FA2574E00A88E06 /* AJ_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				701878971FE1B2C800DA9AB7 /* Model */,
 				7051F1171FA2579400A88E06 /* Controller */,
 				7051F1161FA2578D00A88E06 /* View */,
 				7051F1141FA2576800A88E06 /* Resources */,
+				701878971FE1B2C800DA9AB7 /* Model */,
 				7051F1151FA2577300A88E06 /* Model */,
 			);
 			path = AJ_CSP;
@@ -177,10 +175,9 @@
 		7051F1161FA2578D00A88E06 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7018788B1FE1AF5A00DA9AB7 /* StarField.sks */,
 				7051F1061FA2574E00A88E06 /* Main.storyboard */,
-				7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */,
 				70ACAEB31FD72A0400811DDA /* DrawingView.swift */,
+				7018788B1FE1AF5A00DA9AB7 /* StarField.sks */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7051F10D1FA2574E00A88E06 /* LaunchScreen.storyboard in Resources */,
 				701878861FE1ADF200DA9AB7 /* boss sound.mp3 in Resources */,
 				701878871FE1ADF200DA9AB7 /* extra sound.mp3 in Resources */,
 				701878831FE1ADF200DA9AB7 /* laser sound.mp3 in Resources */,
@@ -319,14 +315,6 @@
 				7051F1071FA2574E00A88E06 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7051F10B1FA2574E00A88E06 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7051F10C1FA2574E00A88E06 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
