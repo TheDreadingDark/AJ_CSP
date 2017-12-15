@@ -52,8 +52,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
                 }
             }
         }
-        
-        
     }
 
     private func setupPlayer() -> Void
@@ -87,6 +85,10 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
                 node, stop in
                 let invader = node as! SKSpriteNode
                 invader.position.y -= CGFloat(10)
+                if (invader.position.y < 20)
+                {
+                    print (invader.position.y)
+                }
             
             }
             changeDirection = false
