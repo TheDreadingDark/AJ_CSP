@@ -39,6 +39,7 @@
 		705F9C2A1FC362890012FC6E /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C291FC362890012FC6E /* Demon.swift */; };
 		709E424B1FD9D36A005A3676 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E424A1FD9D36A005A3676 /* ArtCell.swift */; };
 		70ACAEB41FD72A0400811DDA /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACAEB31FD72A0400811DDA /* DrawingView.swift */; };
+		70BD15171FE9A4CC006BC3A4 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		705F9C291FC362890012FC6E /* Demon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demon.swift; sourceTree = "<group>"; };
 		709E424A1FD9D36A005A3676 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		70ACAEB31FD72A0400811DDA /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				701878791FE1AB0500DA9AB7 /* LevelCompleteScene.swift */,
 				701878781FE1AB0500DA9AB7 /* StartScene.swift */,
 				7051F1021FA2574E00A88E06 /* AppDelegate.swift */,
+				70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */,
 				7051F1041FA2574E00A88E06 /* ViewController.swift */,
 				7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */,
 				709E424A1FD9D36A005A3676 /* ArtCell.swift */,
@@ -303,6 +306,7 @@
 				7051F1031FA2574E00A88E06 /* AppDelegate.swift in Sources */,
 				7018787A1FE1AB0500DA9AB7 /* StartScene.swift in Sources */,
 				7051F1211FA25C4000A88E06 /* ProgrammingViewController.swift in Sources */,
+				70BD15171FE9A4CC006BC3A4 /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
