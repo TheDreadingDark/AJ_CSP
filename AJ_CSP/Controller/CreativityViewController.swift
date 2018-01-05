@@ -27,7 +27,8 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
             UIImage(named: "javaSample"),
             UIImage(named: "nuclear energy"),
             UIImage(named: "Nuclear Power Plan"),
-            UIImage(named: "swiftSample")
+            UIImage(named: "swiftSample"),
+            UIImage(named: "Haiku")
         ]
     }()
     

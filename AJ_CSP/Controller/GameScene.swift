@@ -234,7 +234,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             print("Invader and Player Collision Contact")
         }
-    }
     
     if ((firstBody.categoryBitMask & CollisionCategories.Player != 0) &&
         (secondBody.categoryBitMask & CollisionCategories.InvaderLaser != 0))
@@ -258,26 +257,27 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
         let theInvader = firstBody.node as! Invader
         let newInvaderRow = theInvader.invaderRow - 1
-        let newInvaderCo1 = theInvader.invaderCo1
+        let newInvaderCol = theInvader.invaderCol
         if(newInvaderRow >= 1)
         {
-            self.enumarateChildNodes(withName: "invader")
-            {
-                node, stop in
-                let invader = node as! Invader
-                if invader.invaderRow == newInvaderRow &&
-                invader.invaderCo1 == newInvaderCo1
-            {
-                self.invadersThatCanFire.append(invader)
-                stop.pointee = true
+                self.enumerateChildNodes(withName: "invader")
+                {
+                    node, stop in
+                    let invader = node as! Invader
+                    if invader.invaderRow == newInvaderRow && invader.invaderCol == newInvaderCol
+                {
+                    self.invadersThatCanFire.append(invader)
+                    stop.pointee = true
+                }
             }
         }
+        let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
+        if(invaderIndex != nil)
+        {
+            invadersThatCanFire.remove(at: invaderIndex!)
+        }
+        theInvader.removeFromParent()
+        secondBody.node?.removeFromParent()
+        }
     }
-    let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
-    if(invaderIndex != nil)
-    {
-        invadersThatCanFire.remove(at: invaderIndex)
-    }
-    theInvader.removeFromParent()
-    secondBody.node?.removeFromParent()
 }
