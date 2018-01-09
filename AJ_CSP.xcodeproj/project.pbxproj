@@ -37,6 +37,9 @@
 		7051F1251FA25C8000A88E06 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */; };
 		705F9C281FC361670012FC6E /* Punchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C271FC361670012FC6E /* Punchable.swift */; };
 		705F9C2A1FC362890012FC6E /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F9C291FC362890012FC6E /* Demon.swift */; };
+		706CEA692005449E00C9EE72 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CEA682005449E00C9EE72 /* BucketItemCell.swift */; };
+		706CEA6B2005460E00C9EE72 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CEA6A2005460E00C9EE72 /* BucketItem.swift */; };
+		706CEA6D20054AF300C9EE72 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 706CEA6C20054AF200C9EE72 /* bucket.csv */; };
 		709E424B1FD9D36A005A3676 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E424A1FD9D36A005A3676 /* ArtCell.swift */; };
 		70ACAEB41FD72A0400811DDA /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACAEB31FD72A0400811DDA /* DrawingView.swift */; };
 		70BD15171FE9A4CC006BC3A4 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */; };
@@ -75,6 +78,9 @@
 		7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		705F9C271FC361670012FC6E /* Punchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punchable.swift; sourceTree = "<group>"; };
 		705F9C291FC362890012FC6E /* Demon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demon.swift; sourceTree = "<group>"; };
+		706CEA682005449E00C9EE72 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		706CEA6A2005460E00C9EE72 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		706CEA6C20054AF200C9EE72 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		709E424A1FD9D36A005A3676 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		70ACAEB31FD72A0400811DDA /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				7018788E1FE1B2BF00DA9AB7 /* Projectile.swift */,
 				7018788F1FE1B2BF00DA9AB7 /* InvaderLaser.swift */,
 				701878911FE1B2BF00DA9AB7 /* PlayerLaser.swift */,
+				706CEA6A2005460E00C9EE72 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +163,7 @@
 		7051F1141FA2576800A88E06 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				706CEA6C20054AF200C9EE72 /* bucket.csv */,
 				701878881FE1ADFF00DA9AB7 /* Sounds */,
 				701878891FE1AE8F00DA9AB7 /* Utilities.swift */,
 				7051F1091FA2574E00A88E06 /* Assets.xcassets */,
@@ -187,23 +195,32 @@
 		7051F1171FA2579400A88E06 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7018787C1FE1AB1200DA9AB7 /* GameScene.swift */,
 				7051F1021FA2574E00A88E06 /* AppDelegate.swift */,
 				7051F1041FA2574E00A88E06 /* ViewController.swift */,
 				7051F1181FA25B9C00A88E06 /* CreativityViewController.swift */,
 				709E424A1FD9D36A005A3676 /* ArtCell.swift */,
-				7051F11C1FA25C1800A88E06 /* DataViewController.swift */,
 				7051F11A1FA25BED00A88E06 /* AbstractionViewController.swift */,
 				7051F11E1FA25C2E00A88E06 /* AlgorithmsViewController.swift */,
 				7051F1241FA25C8000A88E06 /* GlobalImpactViewController.swift */,
 				7018EACE1FCF39D4002EFDD0 /* InternetDetailViewController.swift */,
 				7051F1221FA25C6700A88E06 /* InternetMasterViewController.swift */,
-				7018787C1FE1AB1200DA9AB7 /* GameScene.swift */,
+				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
 				701878791FE1AB0500DA9AB7 /* LevelCompleteScene.swift */,
 				701878781FE1AB0500DA9AB7 /* StartScene.swift */,
 				70BD15161FE9A4CC006BC3A4 /* DeathScene.swift */,
-				7051F1201FA25C4000A88E06 /* ProgrammingViewController.swift */,
+				706CEA652005434C00C9EE72 /* DataView */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		706CEA652005434C00C9EE72 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				7051F11C1FA25C1800A88E06 /* DataViewController.swift */,
+				706CEA682005449E00C9EE72 /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +289,7 @@
 				7051F1081FA2574E00A88E06 /* Main.storyboard in Resources */,
 				7018788C1FE1AF5A00DA9AB7 /* StarField.sks in Resources */,
 				701878841FE1ADF200DA9AB7 /* powerup sound.mp3 in Resources */,
+				706CEA6D20054AF300C9EE72 /* bucket.csv in Resources */,
 				701878851FE1ADF200DA9AB7 /* invader sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,8 +305,10 @@
 				701878931FE1B2C000DA9AB7 /* Projectile.swift in Sources */,
 				7051F11F1FA25C2E00A88E06 /* AlgorithmsViewController.swift in Sources */,
 				709E424B1FD9D36A005A3676 /* ArtCell.swift in Sources */,
+				706CEA6B2005460E00C9EE72 /* BucketItem.swift in Sources */,
 				7018787B1FE1AB0500DA9AB7 /* LevelCompleteScene.swift in Sources */,
 				7051F1231FA25C6700A88E06 /* InternetMasterViewController.swift in Sources */,
+				706CEA692005449E00C9EE72 /* BucketItemCell.swift in Sources */,
 				7051F1191FA25B9C00A88E06 /* CreativityViewController.swift in Sources */,
 				7051F11B1FA25BED00A88E06 /* AbstractionViewController.swift in Sources */,
 				701878941FE1B2C000DA9AB7 /* InvaderLaser.swift in Sources */,
